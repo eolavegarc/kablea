@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="47D.MdM#tsJnZ8+?ht:4" x="0" y="0"/><block type="device_button_event" id="bXXn8P2]jM0=1LfY3Vi*" x="691" y="34"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_set_servo_pin" id="HN/$$])gIjd|XgTr8x=T"><field name="name">AnalogPin.P0</field><value name="value"><shadow type="math_number_minmax" id="9syY1C}HJ99j|0gIL$k."><mutation min="0" max="180" label="Value" precision="0"/><field name="SLIDER">90</field></shadow></value></block></statement></block><block type="device_forever" id="E?[96JM5*q:8$qMbTb;?" x="141" y="154"><statement name="HANDLER"><block type="controls_if" id="^~bEzwLC|AjCtUHALzAO"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_pin_is_pressed" id="b5}cJU^`o):ge(V}!oa?"><field name="NAME">TouchPin.P0</field></block></value><statement name="DO0"><block type="device_show_leds" id="jP{7^_/2EY85yN$f{9SP"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="cOEA|W[5]n^_NOYyL7Y_"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></statement></block></statement></block><block type="device_button_event" id="EMsvtPYYaRd|3fP{frLP" x="683" y="203"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_set_servo_pin" id="v]w2Y9ACRr8(q8@6]Rfj"><field name="name">AnalogPin.P0</field><value name="value"><shadow type="math_number_minmax" id="I%$QyP1odv=`oCx]YKZN"><mutation min="0" max="180" label="Value" precision="0"/><field name="SLIDER">180</field></shadow></value></block></statement></block><block type="device_button_event" id="Tui:4]92$g[UIW79y$c#" x="669" y="339"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_set_servo_pin" id="WP_GO|bO5ji]qh[h!5Yr"><field name="name">AnalogPin.P0</field><value name="value"><shadow type="math_number_minmax"><mutation min="0" max="180" label="Value" precision="0"/><field name="SLIDER">180</field></shadow><block type="device_random" id="N||0NK}6;03vv6KvLcX*"><value name="min"><shadow type="math_number" id="8$tbzIpMWBSgRvagUS#@"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="OP}BC+I5JQaq}#RT+`a|"><field name="NUM">180</field></shadow></value></block></value></block></statement></block></xml>
